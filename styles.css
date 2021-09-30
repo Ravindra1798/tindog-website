@@ -1,0 +1,196 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  color: white;
+}
+
+p {
+  padding: 0 10%;
+  color: #8f8f8f;
+}
+.container-fluid {
+  padding: 5% 15%;
+}
+ /* navbar */
+.navbar-nav {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+/* navigation bar */
+.navbar-brand {
+  font-family: "ubuntu";
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+ /* title-section */
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+.big-heading {
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.row {
+  padding-top: 50px;
+}
+
+
+.title-img {
+  width: 40%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* feature */
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-heading {
+  line-height: 1.5;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.featuresec {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+/* download button */
+.download-button {
+  margin: 3% 2%;
+}
+
+/* fontawesome color */
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial */
+#testimonials {
+  color: white;
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  line-height: 1.5;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.testimonials-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px 20px;
+}
+
+.carousel-item {}
+
+/* press */
+#press {
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 2%;
+}
+
+/* pricing-section */
+#pricing {
+  padding: 100px;
+  line-height: 1.5;
+}
+
+.pricing-heading {
+  line-height: 1.5;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.pricing-header {
+  font-weight: lighter;
+  line-height: 2 font-size: 1.5rem;
+}
+
+.pricing-text {
+  line-height: 1.5;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* media query for mobile viewport */
+@media (max-width:900px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* cta */
+#cta {
+  color: white;
+  background-color: #ff4c68;
+}
+
+.cta-heading {
+  font-size: 2.3rem;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 2;
+  font-weight: lighter;
+}
+
+/* footer */
+#footer {}
+
+.social-icon {
+  margin: 2% 1%;
+}
+
+.Footer {}
